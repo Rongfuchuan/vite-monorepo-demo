@@ -1,0 +1,12 @@
+{
+  "name": "vite-monorepo-card",
+  "version": "0.0.0",
+  "private": true,
+  "module": "src/index.ts",
+  "packageManager": "pnpm@7.5.1+",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:lib": "vite build --mode=lib"
+  }
+}

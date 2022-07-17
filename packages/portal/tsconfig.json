@@ -1,0 +1,13 @@
+{
+  "references": [
+    { "path": "../../tsconfig.json" }
+  ],
+  "compilerOptions": {
+    "baseUrl": "."
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue"
+  ],
+}

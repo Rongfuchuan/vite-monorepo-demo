@@ -1,0 +1,34 @@
+{
+  "name": "vite-monorepo",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "pnpm@7.5.1+",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rongfuchuan/vite-monorepo-demo.git"
+  },
+  "author": {
+    "name": "Rongfuchuan",
+    "email": "rongfuchuan@foxmail.com"
+  },
+  "scripts": {
+    "dev": "pnpm -C ./packages/portal run dev && pnpm -C ./packages/card run dev",
+    "build": "pnpm -C ./packages/portal run build && pnpm -C ./packages/card run build:lib"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "vue": "^3.2.37",
+    "vue-router": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.5",
+    "@vitejs/plugin-vue": "^3.0.0",
+    "@vitejs/plugin-vue-jsx": "^2.0.0",
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.6",
+    "typescript": "^4.7.4",
+    "vite": "^3.0.0",
+    "vue-tsc": "^0.38.8"
+  }
+}
